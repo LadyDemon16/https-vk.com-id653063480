@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+
+.k img{
+    position: absolute;
+    width: 90% ;
+    height: 29% ;
+    top: 35% ;
+    left: 5% ; 
+    box-shadow: 0 0 90px 90px;
+    color: red;
+}
+.n img{
+    position: absolute;
+    width: 50% ;
+    top: -45%;
+    left: 45%;
+}
+
+.k2 img{
+    position: absolute;
+    width: 40%;
+    top: 100%;
+    left: 0%;
+    animation: k2 7s linear;
+}
+
+
+
+@keyframes k2 {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0.1;
+    }
+   50% {
+        transform: translateX(1%);
+        opacity: 0.1;
+    }
+    100% {
+        transform: translateX(1px);
+        
+    } 
+}
+
+.p2{
+    position: absolute;
+    width: 40%;
+    top: 119%;
+    left: 50%;
+    color: brown;
+    border: solid 5px;
+    font-size: 40px;
+    animation: k2 7s linear;
+}
+
+.k3 img{
+    position: absolute;
+    width: 40%;
+    top: 200%;
+    left: 30%;
+}
+
+.t2 img{
+   position: absolute;
+    width: 30%;
+    top: 230%;
+    left: 65%;
+    transition: transform 1s;
+}
+
+.t2:hover img{
+    transform: scale(1.1);
+    box-shadow: 0 0 90px 90px;
+    color:red;
+}
+
+.t3 img{
+   position: absolute;
+    width: 25%;
+    top: 230%;
+    left: 4%;
+    transition: transform 1s;
+}
+
+.t3:hover img{
+    transform: scale(1.1);
+    box-shadow: 0 0 90px 90px;
+    color:skyblue;
+}
+
+.g3 img{
+   position: absolute;
+    width: 45%;
+    top: 299%;
+    left: 0%;
+}
+
+.v1 video {
+   position: absolute;
+    width: 45%;
+    top: 335%;
+    left: 50%;
+}
